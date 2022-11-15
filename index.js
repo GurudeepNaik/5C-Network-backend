@@ -6,7 +6,7 @@ const app = express();
 const PORT=require("./constant/PORT")
 
 
-mongoose.connect("mongodb://localhost:27017/githubApi", (err) => {
+mongoose.connect("mongodb+srv://Gurudeep:Gurudeep@cluster0.3vkr8d5.mongodb.net/githubApi?retryWrites=true&w=majority", (err) => {
   if (err) console.log(err);
   else console.log("Database Connected Sucessfully");
 });
