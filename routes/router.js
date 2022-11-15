@@ -8,7 +8,7 @@ const getSortedUser=require("../controller/getSortedUser");
 
 route.get("/sorted", getSortedUser);//GET -> http://localhost:7000/user/sorted?public_repos=true
 route.get("/search", searchUserDetails); //GET -> http://localhost:7000/user/search?login=GurudeepNaik
-route.post("/:userName" , addUserDetails); //POST -> http://localhost:7000/user/Sabiya-123
+route.post("/:userName" , addUserDetails); //POST -> http://localhost:7000/user/GurudeepNaik
 route.delete("/:userName", deleteUser);//DELETE -> http://localhost:7000/user/GurudeepNaik
 route.put("/:userName", updateUser); //PUT -> http://localhost:7000/user/GurudeepNaik
 
