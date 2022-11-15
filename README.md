@@ -1,8 +1,8 @@
 # 5C-Network-backend
 
-Routes
-GET -> http://localhost:7000/user/sorted?public_repos=true
-GET -> http://localhost:7000/user/search?login=GurudeepNaik
-POST -> http://localhost:7000/user/GurudeepNaik
-DELETE -> http://localhost:7000/user/GurudeepNaik
-PUT -> http://localhost:7000/user/GurudeepNaik
+#Routes
+#Post user - POST -> https://fivec-backend.herokuapp.com/user/{userName}
+#Get Sorted - GET  -> https://fivec-backend.herokuapp.com/user/sorted?public_repos=true
+#Get user by user Name - GET -> https://fivec-backend.herokuapp.com/user/search?login={userName}
+#Soft Delete user - DELETE -> https://fivec-backend.herokuapp.com/user/{userName}
+#Update user - PUT -> https://fivec-backend.herokuapp.com/user/{userName}
